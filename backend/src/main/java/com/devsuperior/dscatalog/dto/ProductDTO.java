@@ -43,7 +43,7 @@ public class ProductDTO implements Serializable{
 
 		this.id = entity.getId();
 		this.name = entity.getName();
-		this.description = entity.getDescreption();
+		this.description = entity.getDescription();
 		this.price = entity.getPrice();
 		this.imgUrl = entity.getImgUrl();
 		this.date = entity.getDate();

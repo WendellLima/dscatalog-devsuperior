@@ -45,10 +45,10 @@ public class Product implements Serializable{
 		
 	}
 
-	public Product(Long id, String name, String descreption, Double price, String imgUrl, Instant date) {
+	public Product(Long id, String name, String description, Double price, String imgUrl, Instant date) {
 		this.id = id;
 		this.name = name;
-		this.description = descreption;
+		this.description = description;
 		this.price = price;
 		this.imgUrl = imgUrl;
 		this.date = date;
@@ -73,10 +73,10 @@ public class Product implements Serializable{
 	}
 	
 
-	public String getDescreption() {
+	public String getDescription() {
 		return description;
 	}
-	public void setDescreption(String descreption) {
+	public void setDescription(String descreption) {
 		this.description = descreption;
 	}
 	
